@@ -9,8 +9,8 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="753.03571"
-   height="339.64288"
+   width="820.64282"
+   height="406.28577"
    id="svg2"
    version="1.1"
    inkscape:version="0.48.4 r9939"
@@ -19,7 +19,70 @@
    inkscape:export-ydpi="300.11392"
    sodipodi:docname="zynq70107020.svg">
   <defs
-     id="defs4" />
+     id="defs4">
+    <filter
+       id="filter3165"
+       inkscape:label="Drop Shadow"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         id="feFlood3167"
+         flood-opacity="0.6"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite3169"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur3171"
+         stdDeviation="5"
+         result="blur" />
+      <feOffset
+         id="feOffset3173"
+         dx="0"
+         dy="0"
+         result="offset" />
+      <feComposite
+         id="feComposite3175"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+    <filter
+       id="filter3177"
+       inkscape:label="Drop Shadow"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         id="feFlood3179"
+         flood-opacity="0.6"
+         flood-color="rgb(0,0,0)"
+         result="flood" />
+      <feComposite
+         id="feComposite3181"
+         in2="SourceGraphic"
+         in="flood"
+         operator="in"
+         result="composite1" />
+      <feGaussianBlur
+         id="feGaussianBlur3183"
+         stdDeviation="5"
+         result="blur" />
+      <feOffset
+         id="feOffset3185"
+         dx="0"
+         dy="0"
+         result="offset" />
+      <feComposite
+         id="feComposite3187"
+         in2="offset"
+         in="SourceGraphic"
+         operator="over"
+         result="composite2" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -27,9 +90,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.56"
-     inkscape:cx="460.79806"
-     inkscape:cy="152.09134"
+     inkscape:zoom="1.28"
+     inkscape:cx="494.60163"
+     inkscape:cy="185.94848"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -40,8 +103,8 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="2495"
-     inkscape:window-height="1416"
+     inkscape:window-width="1855"
+     inkscape:window-height="1176"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -53,8 +116,8 @@
        visible="true"
        enabled="true"
        snapvisiblegridlinesonly="true"
-       originx="-210px"
-       originy="-359.99997px" />
+       originx="-176.19643px"
+       originy="-326.14283px" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -72,7 +135,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-210,-352.71933)">
+     transform="translate(-176.19643,-319.9336)">
     <rect
        style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none"
        id="rect4239-6"
@@ -94,7 +157,7 @@
          x="311.2189"
          y="632.61682">?</tspan></text>
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter3165)"
        id="rect4239"
        width="338.03571"
        height="338.57144"
@@ -270,7 +333,7 @@
          x="725.50458"
          y="633.68829">?</tspan></text>
     <rect
-       style="fill:#000000;fill-opacity:1;stroke:none"
+       style="fill:#000000;fill-opacity:1;stroke:none;filter:url(#filter3177)"
        id="rect4239-5"
        width="338.03571"
        height="338.57144"
